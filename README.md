@@ -22,4 +22,22 @@ Applicazione di chat client-server sviluppata in Java con architettura Socket TC
 ├── server/          # Logica di backend, gestione connessioni e database (MainServer, DatabaseManager, ClientHandler)
 ├── lib/             # Dipendenze e librerie esterne (Driver JDBC SQLite, SLF4J)
 ├── .gitignore       
-└── README.md      
+└── README.md
+
+
+```
+##Avvio applicazione (windows)
+
+Utilizzare lo script Batch fornito (run_server.bat)
+
+LATO SERVER
+
+1 - cmd prompt
+2 - cd server
+3 - run_server
+ 
+ LATO CLIENT
+ 
+1 - cd client
+2 - javac *.java
+3 - java ClientGUI
